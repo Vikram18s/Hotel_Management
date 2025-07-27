@@ -1,4 +1,4 @@
-package com.Havenwood.HavenwoodHotel.service.interfac;
+package com.Havenwood.HavenwoodHotel.service;
 
 import com.Havenwood.HavenwoodHotel.exception.OurException;
 import com.Havenwood.HavenwoodHotel.repo.UserRepository;

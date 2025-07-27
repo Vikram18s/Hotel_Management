@@ -1,6 +1,6 @@
 package com.Havenwood.HavenwoodHotel.security;
 
-import com.Havenwood.HavenwoodHotel.service.interfac.CustomUserDetailsService;
+import com.Havenwood.HavenwoodHotel.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
