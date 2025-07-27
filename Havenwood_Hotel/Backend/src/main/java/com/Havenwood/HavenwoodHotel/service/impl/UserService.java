@@ -1,6 +1,6 @@
 package com.Havenwood.HavenwoodHotel.service.impl;
 
-import com.Havenwood.HavenwoodHotel.dto.LginRequest;
+import com.Havenwood.HavenwoodHotel.dto.LoginRequest;
 import com.Havenwood.HavenwoodHotel.dto.Response;
 import com.Havenwood.HavenwoodHotel.dto.UserDTO;
 import com.Havenwood.HavenwoodHotel.entity.User;
@@ -62,7 +62,7 @@ public class UserService implements IUserService {
     }
 
     @Override
-    public Response login(LginRequest loginRequest) {
+    public Response login(LoginRequest loginRequest) {
         Response response = new Response();
         try{
             authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getEmail(),loginRequest.getPassword()));
